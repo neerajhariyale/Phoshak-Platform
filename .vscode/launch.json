@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/neerajhariyale/development/phoshak-platform/backend-phoshak",
+      "program": "/Users/neerajhariyale/development/phoshak-platform/backend-phoshak/build/Debug/outDebug"
+    }
+  ]
+}
