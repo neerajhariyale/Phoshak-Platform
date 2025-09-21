@@ -1,11 +1,16 @@
 import './App.css'
+import Gallery from './Components/Gallery'
+import HeroSection from './Components/HeroSection'
+import Navbar from './Components/Navbar'
 
 function App() {
   
 
   return (
     <>
-    <p className='text-xl font-bold underline'>Hello World</p>
+    <Navbar/>
+    <HeroSection/>
+    <Gallery/>
     </>
   )
 }
