@@ -2,5 +2,8 @@
   "dependencies": {
     "lucide-react": "^0.544.0",
     "ogl": "^1.0.11"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
   }
 }
