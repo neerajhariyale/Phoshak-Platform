@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-white px-4 pb-4 space-y-3 border-t fixed w-full">
+        <div className="lg:hidden bg-[#F7CAC9] px-4 pb-4 space-y-3 border-t fixed w-full z-5 rounded-b-2xl">
           {/* Nav Items */}
           <div className="space-y-2">
             {navItems.map((item, idx) => (
