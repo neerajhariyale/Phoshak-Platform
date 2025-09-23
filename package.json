@@ -1,7 +1,11 @@
 {
   "dependencies": {
+    "@midudev/tailwind-animations": "^0.2.0",
+    "framer-motion": "^12.23.19",
+    "gsap": "^3.13.0",
     "lucide-react": "^0.544.0",
-    "ogl": "^1.0.11"
+    "ogl": "^1.0.11",
+    "react-router-dom": "^7.0.0"
   },
   "devDependencies": {
     "webpack-cli": "^6.0.1"

@@ -58,8 +58,8 @@ const MensWomensSection: React.FC = () => {
   ];
 
   return (
-    <section className="w-full bg-[#FFFADC] py-14 px-6">
-      <div className="max-w-7xl mx-auto">
+    <section className="w-full bg-[#FFFADC] py-14 px-6   ">
+      <div className="max-w-7xl mx-auto animate-slide-out-top">
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-wide">
@@ -75,7 +75,7 @@ const MensWomensSection: React.FC = () => {
         <div className="flex justify-center mb-10 space-x-4 sm:space-x-6">
           <button
             onClick={() => setActiveTab("men")}
-            className={`px-6 sm:px-10 py-2 sm:py-3 rounded-full text-sm sm:text-lg font-semibold shadow-md transition-all duration-300 ${
+            className={`px-6 sm:px-10 py-2 sm:py-3 rounded-full text-sm sm:text-lg font-semibold shadow-md transition-all duration-300  ${
               activeTab === "men"
                 ? "bg-gradient-to-r from-black to-gray-800 text-white scale-105 cursor-pointer"
                 : "bg-gray-200 text-gray-700 hover:bg-gray-300 cursor-pointer"

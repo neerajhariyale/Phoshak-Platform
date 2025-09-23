@@ -1,8 +1,10 @@
 import './App.css'
+import Footer from './Components/Footer'
 import Gallery from './Components/Gallery'
 import HeroSection from './Components/HeroSection'
 import MensWomensSection from './Components/MensWomensSection'
 import Navbar from './Components/Navbar'
+import PremiumCollection from './Components/PremiumCollection'
 
 function App() {
   
@@ -13,6 +15,8 @@ function App() {
     <HeroSection/>
     <Gallery/>
     <MensWomensSection/>
+    <PremiumCollection/>
+    <Footer/>
     </>
   )
 }

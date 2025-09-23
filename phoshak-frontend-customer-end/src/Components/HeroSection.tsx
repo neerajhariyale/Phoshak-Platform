@@ -1,12 +1,12 @@
-import React from "react";
+
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-gradient-to-r from-[#f7f1f1] to-[#e6cfd4] ">
+    <section className="w-full bg-black bg-gradient-to-r from-[#f7f1f1] to-[#e6cfd4]  ">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between py-16 ">
         
         {/* Left Content */}
-        <div className="flex-1 text-center md:text-left ">
+        <div className="flex-1 text-center md:text-left animate-slide-in-left delay-1000  ">
           <h1 className="text-3xl md:text-5xl font-bold text-black leading-snug">
             “Discover <span className="text-[#808080]">Poshak</span>: Where
             <br /> Modern Trends Meet Classic Attire.”
@@ -26,7 +26,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Image */}
-        <div className=" flex-1 mt-10 md:mt-0 flex justify-center  md:hidden lg:block sm:hidden">
+        <div className=" flex-1 mt-10 md:mt-0 flex justify-center  md:hidden lg:block sm:hidden lg: animate-slide-in-right">
           <img
             src="/heroimg.png"
             alt="Hero"
